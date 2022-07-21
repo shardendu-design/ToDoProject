@@ -1,0 +1,63 @@
+{% extends 'layout.html' %}
+
+
+    {% block content %}
+
+    <div id="idContainerDeleteCompany" class="container-fluid">
+          
+
+        <br>
+            <h2 class="company_name_heading">COMPANY DETAILS</h2>
+        <br>
+            
+            <div class="table table-bordered">
+              
+              <table class="table">
+                <thead class="">
+                  <tr>
+                     <th scope="col">ID</th>
+                    <th scope="col">TODO NAME</th>
+                    <th scope="col">TODO DESCRIPTION</th>
+                    <th scope="col">TODO DATE</th>
+                    <th scope="col">TODO STATUS</th>
+                    <th id="edit_header" scope="col"> DELETE </th>
+                    <th id="delete_header" scope="col"> CANCEL </th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{todos.id}}</td>
+                        <td>{{todos.todo_name}}</td>
+                        <td>{{todos.todo_description}}</td>
+                        <td>{{todos.todo_created_date}}</td>
+                        <td>{{todos.todo_status}}</td>
+                        
+                        <td>
+                            
+                           <form action="" method="POST" onclick="return confirm('Are you sure you want to delete this item?');">
+                               <button type="submit" id="" class="btn btn-sm btn-danger">DELETE</button>
+                               
+                           </form>
+                           
+                        <td> 
+                        
+                        <button type="submit" id="idButtonCancel" class="btn btn-sm btn-primary">
+                            <a href="{{ url_for('main.display_todo_name')}}" style="color: rgb(243, 239, 239)">CANCEL</a>
+                        </button>
+                        
+                      </tr>
+                </tbody>
+                  
+              </table>
+            
+            </div>
+            
+            
+            </div>
+
+
+       
+{% endblock %}
+
+
+

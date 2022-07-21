@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+
+
+    {% block content %}
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}"> -->
+
+        <div id="" class="container-fluid">
+          <br>
+
+            <h2 class="company_name_heading">TO DO LIST</h2>
+          <br>
+            
+            <div class="table table-bordered">
+              
+              <table class="table">
+                <thead class="">
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">TODO NAME</th>
+                    <th scope="col">TODO DESCRIPTION</th>
+                    <th scope="col">TODO DATE</th>
+                    <th scope="col">TODO STATUS</th>
+                    <th id="edit_header" scope="col">EDIT</th>
+                    <th id="delete_header" scope="col">DELETE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    {% for todos in todo_names %}
+                       <tr>
+                         <td>{{todos.id}}</td>
+                         <td>{{todos.todo_name}}</td>
+                         <td>{{todos.todo_description}}</td>
+                         <td>{{todos.todo_created_date}}</td>
+                         <td>{{todos.todo_status}}</td>
+                         <td>
+                           <button class="btn btn-sm btn-primary" id="idDeleteButton">
+                               <a href="{{ url_for('main.edit_todo',todo_id=todos.id) }}" style="color: rgb(237, 245, 239)">EDIT</a>
+
+
+
+                           </button>
+
+                          
+                         </td>
+                         
+                         <td>
+                      
+                           <button class="btn btn-sm btn-danger" id="idCancelButton">
+                               <a href="{{ url_for('main.delete_todo', todo_id=todos.id) }}" style="color: rgb(243, 239, 239)">DELETE</a>
+
+                          </button>
+                          </td>
+                       </tr>
+                     {% endfor %}
+               </tbody>
+            
+              </table>
+            
+            </div>
+            
+            
+            </div>
+        
+      
+{% endblock %}
