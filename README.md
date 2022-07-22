@@ -1,6 +1,8 @@
 # ToDoProject
 Todo project for Integrify.
 
+## Technology Used
+
 ## Programming Language
 
 Python
@@ -23,5 +25,22 @@ I have used a condo environment to develop a ToDo application instead of virtual
 
 ### The To Do app features Include:
 
-User Login/Create New User
+#### Create Database name ToDo_Details in PostgreSQL 10
 
+#### User Login/Create New User
+![login](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/Screenshot 2022-07-21 at 22.31.44.png)
+
+Create ToDo task
+![createtask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/Screenshot 2022-07-21 at 22.32.21.png)
+
+Display task
+![displaytask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/Screenshot 2022-07-21 at 22.34.59.png)
+
+Edit todo task
+![edittask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/edittask.png)
+
+Delete Task
+![deletetask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/deletetask.png)
+
+Delete Confirm
+![deleteconfirm](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/deleteconfirm.png)
