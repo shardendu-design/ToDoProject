@@ -28,7 +28,7 @@ I have used a condo environment to develop a ToDo application instead of virtual
 #### Create Database name ToDo_Details in PostgreSQL 10
 
 #### User Login/Create New User
-![login](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/Screenshot 2022-07-21 at 22.31.44.png)
+![login](https://github.com/shardendu-design/ToDoProject/tree/master/app/staticScreenshot 2022-07-21 at 22.31.44.png)
 
 Create ToDo task
 ![createtask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/Screenshot 2022-07-21 at 22.32.21.png)
