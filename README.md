@@ -43,4 +43,4 @@ Delete Task
 ![deletetask](images/deletetask.png)
 
 Delete Confirm
-![deleteconfirm](images/createtask.png)
+![deleteconfirm](images/deleteconfirm.png)
