@@ -31,16 +31,16 @@ I have used a condo environment to develop a ToDo application instead of virtual
 ![login](images/login.png)
 
 Create ToDo task
-![createtask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/Screenshot 2022-07-21 at 22.32.21.png)
+![createtask](images/createtask.png)
 
 Display task
-![displaytask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/Screenshot 2022-07-21 at 22.34.59.png)
+![displaytask](images/displaytask.png)
 
 Edit todo task
-![edittask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/edittask.png)
+![edittask](images/edittask.png)
 
 Delete Task
-![deletetask](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/deletetask.png)
+![deletetask](images/deletetask.png)
 
 Delete Confirm
-![deleteconfirm](/Users/manijha/PycharmProjects/ToDoProject/app/static/img/deleteconfirm.png)
+![deleteconfirm](images/createtask.png)
